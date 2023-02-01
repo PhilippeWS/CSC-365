@@ -1,0 +1,442 @@
+commit 80a60b938237ab224a5ef6c38b564f64c1a3ff76
+Author: Taylor <tbcmorgan@gmail.com>
+Date:   Fri Dec 9 23:54:58 2022 -0800
+
+    finally done readme
+
+ .DS_Store | Bin 0 -> 6148 bytes
+ README.md |   3 ++-
+ 2 files changed, 2 insertions(+), 1 deletion(-)
+
+commit d19925c8bc7d89df61a5c9984cc94267a19feb66
+Merge: b3704de eac1b04
+Author: PhilippeWS <91435899+PhilippeWS@users.noreply.github.com>
+Date:   Fri Dec 9 23:54:30 2022 -0800
+
+    Merge branch 'main' of https://github.com/PhilippeWS/Lab07
+
+commit b3704de930ebbfd0c1c98e18f5ec25e1c78cc23b
+Author: PhilippeWS <91435899+PhilippeWS@users.noreply.github.com>
+Date:   Fri Dec 9 23:53:56 2022 -0800
+
+    Finished FR2
+
+ out/production/Lab07 CSC 365/FR2.class | Bin 19137 -> 29685 bytes
+ out/production/Lab07 CSC 365/FR3.class | Bin 15737 -> 15742 bytes
+ src/FR2.java                           | 160 ++++++++++++++++++++++++---------
+ src/FR3.java                           |  10 ++-
+ 4 files changed, 122 insertions(+), 48 deletions(-)
+
+commit eac1b04e22997ffd58aebe0cead8138fa9acf341
+Author: Taylor <tbcmorgan@gmail.com>
+Date:   Fri Dec 9 23:43:55 2022 -0800
+
+    readme
+
+ README.md | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+commit de92b9efbe3100f4ae5e4e873a399eb423b34ebf
+Author: Taylor <tbcmorgan@gmail.com>
+Date:   Fri Dec 9 23:34:04 2022 -0800
+
+    readme fixed
+
+ README.md | 8 +++++++-
+ 1 file changed, 7 insertions(+), 1 deletion(-)
+
+commit e64991d5740e75e92b6abdf3c786c81f9b8332f2
+Author: PhilippeWS <91435899+PhilippeWS@users.noreply.github.com>
+Date:   Fri Dec 9 14:03:36 2022 -0800
+
+    Almost all of FR2 done, Insert Statement Left
+
+ out/production/Lab07 CSC 365/FR1.class | Bin 3994 -> 4010 bytes
+ out/production/Lab07 CSC 365/FR2.class | Bin 16670 -> 19137 bytes
+ out/production/Lab07 CSC 365/FR3.class | Bin 15752 -> 15737 bytes
+ out/production/Lab07 CSC 365/FR5.class | Bin 5557 -> 6045 bytes
+ out/production/Lab07 CSC 365/FR6.class | Bin 6961 -> 6977 bytes
+ src/FR2.java                           | 475 +++++++++++++++++++++++++++------
+ 6 files changed, 397 insertions(+), 78 deletions(-)
+
+commit f492cc88298df02d58c0d10e8465e0463cacf3b7
+Author: Taylor <tbcmorgan@gmail.com>
+Date:   Fri Dec 9 11:31:32 2022 -0800
+
+    README Done
+
+ README.md | 59 ++++++++++++++++++++++++++++++++++++++++++++++++++++++-----
+ 1 file changed, 54 insertions(+), 5 deletions(-)
+
+commit b52d1a7ea4ebe30cd9f02e6ae9fc01ec3bd58531
+Merge: 96cb4b0 e7b78ed
+Author: PhilippeWS <91435899+PhilippeWS@users.noreply.github.com>
+Date:   Fri Dec 9 10:24:01 2022 -0800
+
+    Merge branch 'main' of https://github.com/PhilippeWS/Lab07
+
+commit 96cb4b0a68b767fa4a2d46f5ec8b32e1d12fe9e8
+Author: PhilippeWS <91435899+PhilippeWS@users.noreply.github.com>
+Date:   Fri Dec 9 10:23:46 2022 -0800
+
+    Updated to have global any string.
+
+ src/FR2.java | 16 ++++++++--------
+ src/FR3.java |  2 +-
+ 2 files changed, 9 insertions(+), 9 deletions(-)
+
+commit e7b78ed32fc3268775cb1fe134154f7af12d2bde
+Author: Taylor <tbcmorgan@gmail.com>
+Date:   Fri Dec 9 10:23:40 2022 -0800
+
+    Fixed gitingnore
+
+ .gitignore | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 378770591539174c1bfe53b56030e9931476418e
+Merge: ced261b 08d8b05
+Author: PhilippeWS <91435899+PhilippeWS@users.noreply.github.com>
+Date:   Fri Dec 9 10:18:16 2022 -0800
+
+    Merge branch 'main' of https://github.com/PhilippeWS/Lab07
+
+commit ced261b32bf8b142682a50478fb419756a1bd1d6
+Author: PhilippeWS <91435899+PhilippeWS@users.noreply.github.com>
+Date:   Fri Dec 9 10:18:11 2022 -0800
+
+    Updated Validation in FR2, FR3, Updated FR4 to work properly
+
+ out/production/Lab07 CSC 365/FR2.class | Bin 16680 -> 16670 bytes
+ out/production/Lab07 CSC 365/FR3.class | Bin 14502 -> 15752 bytes
+ out/production/Lab07 CSC 365/FR4.class | Bin 5659 -> 5894 bytes
+ src/FR2.java                           |  49 ++++++++++++------------
+ src/FR3.java                           |  22 +++++++++--
+ src/FR4.java                           |  66 ++++++++++++++++-----------------
+ 6 files changed, 75 insertions(+), 62 deletions(-)
+
+commit 08d8b05886ed8aace79e192c13b83a8eee63b5c6
+Author: Taylor <tbcmorgan@gmail.com>
+Date:   Fri Dec 9 09:19:44 2022 -0800
+
+    formatting
+
+ src/FR1.java | 4 ++--
+ src/FR2.java | 6 ++----
+ 2 files changed, 4 insertions(+), 6 deletions(-)
+
+commit d1a171953b7f91298cd3a25358a4a81678198954
+Merge: a518256 9e03995
+Author: Taylor <tbcmorgan@gmail.com>
+Date:   Fri Dec 9 09:07:43 2022 -0800
+
+    Merge branch 'main' into FR5
+
+commit a5182567ccff251549a8dab95211a43fc71ac056
+Author: Taylor <tbcmorgan@gmail.com>
+Date:   Fri Dec 9 09:07:28 2022 -0800
+
+    formatting and cleaning up
+
+ src/FR5.java | 6 ------
+ src/FR6.java | 4 ++--
+ 2 files changed, 2 insertions(+), 8 deletions(-)
+
+commit 9e0399522b9afc7b026f88dfdfbe332b741d311b
+Author: PhilippeWS <91435899+PhilippeWS@users.noreply.github.com>
+Date:   Fri Dec 9 02:06:32 2022 -0800
+
+    Fixed Some bugs from FR3, Got first Half of FR2
+
+ out/production/Lab07 CSC 365/FR2.class             | Bin 0 -> 16680 bytes
+ out/production/Lab07 CSC 365/FR3.class             | Bin 14360 -> 14502 bytes
+ out/production/Lab07 CSC 365/InnReservations.class | Bin 3031 -> 3139 bytes
+ src/FR2.java                                       | 358 +++++++++++++++++++++
+ src/FR3.java                                       |  67 ++--
+ src/InnReservations.java                           |   5 +
+ 6 files changed, 397 insertions(+), 33 deletions(-)
+
+commit 5bcb1ef947e76a2f7051a06e55fb2db25aafe4d3
+Author: Taylor <tbcmorgan@gmail.com>
+Date:   Fri Dec 9 00:28:55 2022 -0800
+
+    FR5 done?
+
+ src/FR1.java |   1 -
+ src/FR3.java |   5 ++-
+ src/FR5.java | 112 ++++++++++++++++++++++++-----------------------------------
+ 3 files changed, 48 insertions(+), 70 deletions(-)
+
+commit b00affa811b4c7c7805bf189e34b4f06488ec3a1
+Author: PhilippeWS <91435899+PhilippeWS@users.noreply.github.com>
+Date:   Thu Dec 8 20:28:16 2022 -0800
+
+    Finished FR6
+
+ out/production/Lab07 CSC 365/FR1.class             | Bin 3975 -> 3994 bytes
+ out/production/Lab07 CSC 365/FR3.class             | Bin 14871 -> 14360 bytes
+ out/production/Lab07 CSC 365/FR4.class             | Bin 4083 -> 5659 bytes
+ out/production/Lab07 CSC 365/FR5.class             | Bin 234 -> 5557 bytes
+ out/production/Lab07 CSC 365/FR6.class             | Bin 234 -> 6961 bytes
+ out/production/Lab07 CSC 365/InnReservations.class | Bin 2724 -> 3031 bytes
+ src/FR1.java                                       |   2 +-
+ src/FR6.java                                       | 236 +++++++++++++--------
+ 8 files changed, 154 insertions(+), 84 deletions(-)
+
+commit 9a4daa41cd6e70c62389e27dc1b141b9d72e0763
+Merge: 2a806c8 c1ff086
+Author: Taylor <tbcmorgan@gmail.com>
+Date:   Thu Dec 8 18:14:25 2022 -0800
+
+    Merge branch 'main' into FR6
+
+commit 2a806c8cf16ad3d918e21e4fdb9cf0135e2c1344
+Author: Taylor <tbcmorgan@gmail.com>
+Date:   Thu Dec 8 18:07:50 2022 -0800
+
+    almost done
+
+ src/FR1.class             | Bin 2684 -> 2711 bytes
+ src/FR1.java              |   7 +-
+ src/FR5.class             | Bin 180 -> 4944 bytes
+ src/FR5.java              | 207 ++++++++++++++++++++++++++++++++++++++++++++++
+ src/FR6.class             | Bin 180 -> 4008 bytes
+ src/FR6.java              | 102 +++++++++++++++++++++++
+ src/InnReservations.class | Bin 2334 -> 2483 bytes
+ src/InnReservations.java  |  19 +++--
+ 8 files changed, 325 insertions(+), 10 deletions(-)
+
+commit c1ff08664e1d228fb1d19997e1dcb1768e688836
+Author: PhilippeWS <91435899+PhilippeWS@users.noreply.github.com>
+Date:   Thu Dec 8 18:06:32 2022 -0800
+
+    Finished refactoring FR3, FR4, and FR1
+
+ out/production/Lab07 CSC 365/FR1.class             | Bin 2961 -> 3975 bytes
+ out/production/Lab07 CSC 365/FR3.class             | Bin 2943 -> 14871 bytes
+ out/production/Lab07 CSC 365/FR4.class             | Bin 234 -> 4083 bytes
+ out/production/Lab07 CSC 365/InnReservations.class | Bin 2410 -> 2724 bytes
+ src/FR1.java                                       |  99 ++++---
+ src/FR3.java                                       | 313 +++++++++++++++++++--
+ src/FR4.java                                       |  44 ++-
+ src/InnReservations.class                          | Bin 2334 -> 0 bytes
+ src/InnReservations.java                           |  30 +-
+ 9 files changed, 392 insertions(+), 94 deletions(-)
+
+commit e92351d561d03f98eaf74caefb631c1bf2974ca5
+Author: PhilippeWS <91435899+PhilippeWS@users.noreply.github.com>
+Date:   Thu Dec 8 13:08:10 2022 -0800
+
+    Reformatted FR3 to match current design patterns
+
+ out/production/Lab07 CSC 365/FR1.class             | Bin 2605 -> 2961 bytes
+ out/production/Lab07 CSC 365/FR3.class             | Bin 0 -> 2943 bytes
+ out/production/Lab07 CSC 365/FR4.class             | Bin 0 -> 234 bytes
+ out/production/Lab07 CSC 365/FR5.class             | Bin 0 -> 234 bytes
+ out/production/Lab07 CSC 365/FR6.class             | Bin 0 -> 234 bytes
+ out/production/Lab07 CSC 365/InnReservations.class | Bin 2143 -> 2410 bytes
+ src/FR1.class                                      | Bin 2684 -> 0 bytes
+ src/FR1.java                                       |   4 +-
+ src/FR3.class                                      | Bin 180 -> 0 bytes
+ src/FR3.java                                       |  79 ++++++++++++++++++
+ src/FR4.class                                      | Bin 2591 -> 0 bytes
+ src/FR4.java                                       |  91 +++++++++++++++------
+ src/FR5.class                                      | Bin 180 -> 0 bytes
+ src/FR6.class                                      | Bin 180 -> 0 bytes
+ src/InnReservations.java                           |  11 ++-
+ 15 files changed, 152 insertions(+), 33 deletions(-)
+
+commit ab34a854bef8e37cd9ad5b67e639c4463988e2ae
+Author: Taylor <tbcmorgan@gmail.com>
+Date:   Thu Dec 8 12:40:39 2022 -0800
+
+    FR4 Done
+
+ src/FR1.class             | Bin 0 -> 2684 bytes
+ src/FR3.class             | Bin 0 -> 180 bytes
+ src/FR4.class             | Bin 0 -> 2591 bytes
+ src/FR4.java              |  51 ++++++++++++++++++++++++++++++++++++++++++++++
+ src/FR5.class             | Bin 0 -> 180 bytes
+ src/FR6.class             | Bin 0 -> 180 bytes
+ src/InnReservations.class | Bin 0 -> 2334 bytes
+ src/InnReservations.java  |  26 +++++++++++++++--------
+ 8 files changed, 68 insertions(+), 9 deletions(-)
+
+commit d1e0c1939d2151cbe9cba7b358649d8891c79432
+Author: PhilippeWS <91435899+PhilippeWS@users.noreply.github.com>
+Date:   Thu Dec 8 12:07:16 2022 -0800
+
+    Created FR3-6 Base Files
+
+ src/FR3.java | 2 ++
+ src/FR4.java | 2 ++
+ src/FR5.java | 2 ++
+ src/FR6.java | 2 ++
+ 4 files changed, 8 insertions(+)
+
+commit eacb81688667bf7a91c7fbc1ad5e5afdc7626b0c
+Author: PhilippeWS <91435899+PhilippeWS@users.noreply.github.com>
+Date:   Thu Dec 8 12:04:32 2022 -0800
+
+    Updated and Completed FR1
+
+ out/production/Lab07 CSC 365/FR1.class             | Bin 2380 -> 2605 bytes
+ out/production/Lab07 CSC 365/InnReservations.class | Bin 3289 -> 2143 bytes
+ src/FR1.java                                       |  99 ++++++++++++---------
+ src/InnReservations.java                           |  19 ++--
+ 4 files changed, 67 insertions(+), 51 deletions(-)
+
+commit 6c94b634d1c1a6b5d67a8fd30a4772906a2e1a1f
+Author: PhilippeWS <91435899+PhilippeWS@users.noreply.github.com>
+Date:   Thu Dec 8 10:48:30 2022 -0800
+
+    Renamed Variables, Ditched Test Code
+
+ out/production/Lab07 CSC 365/InnReservations.class | Bin 3161 -> 3289 bytes
+ src/FR1.java                                       |  30 ++++++++++-----------
+ src/InnReservations.java                           |  19 -------------
+ 3 files changed, 15 insertions(+), 34 deletions(-)
+
+commit 1a130626ef92e08dbe716d1183f34fa25242054d
+Author: PhilippeWS <91435899+PhilippeWS@users.noreply.github.com>
+Date:   Tue Dec 6 13:08:09 2022 -0800
+
+    Fixed Issues
+
+ .idea/libraries/mysql_connector_java_8_0_16.xml       |   9 +++++++++
+ Lab07 CSC 365.iml                                     |   2 +-
+ ...java-8.0.16.jar => mysql-connector-java-8.0.16.jar | Bin
+ out/production/Lab07 CSC 365/InnReservations.class    | Bin 2897 -> 3161 bytes
+ src/InnReservations.java                              |  18 ++++++++++++------
+ src/mysql-connector-java-8.0.16.jar                   | Bin 2293144 -> 0 bytes
+ 6 files changed, 22 insertions(+), 7 deletions(-)
+
+commit 1446e4dfce46b1d92c1bf1aca1ac2cb9d61f9db7
+Author: PhilippeWS <91435899+PhilippeWS@users.noreply.github.com>
+Date:   Tue Dec 6 12:42:14 2022 -0800
+
+    Testing Bugged Connection
+
+ .idea/libraries/mysql_connector_java_8_0_16.xml    |   9 ----
+ out/production/Lab07 CSC 365/FR1.class             | Bin 0 -> 2380 bytes
+ out/production/Lab07 CSC 365/InnReservations.class | Bin 2871 -> 2897 bytes
+ src/FR1.class                                      | Bin 1925 -> 0 bytes
+ src/FR1.java                                       |  17 ++++--
+ src/InnReservations.class                          | Bin 1794 -> 0 bytes
+ src/InnReservations.java                           |  57 +++++++++++++--------
+ 7 files changed, 51 insertions(+), 32 deletions(-)
+
+commit 6aae888b3c4b532f86bfbb4ee4086f58bfeb409d
+Author: Taylor <tbcmorgan@gmail.com>
+Date:   Fri Dec 2 15:39:40 2022 -0800
+
+    Fr1 started
+
+ src/FR1.class             | Bin 0 -> 1925 bytes
+ src/FR1.java              |  51 ++++++++++++++++++++++++++++++++++++++++++
+ src/InnReservations.class | Bin 0 -> 1794 bytes
+ src/InnReservations.java  |  55 +++++++++++++++++++++++++++-------------------
+ 4 files changed, 84 insertions(+), 22 deletions(-)
+
+commit af3d1db27ef46cc90c3e47f0b272210304800d62
+Author: PhilippeWS <91435899+PhilippeWS@users.noreply.github.com>
+Date:   Thu Dec 1 13:38:35 2022 -0800
+
+    Deleted compile File
+    
+    Updated gitignore to ignore class files.
+
+ .gitignore                                            |   1 +
+ out/production/Lab07 CSC 365/InnReservations.class    | Bin 2896 -> 2871 bytes
+ .../Lab07 CSC 365/mysql-connector-java-8.0.16.jar     | Bin 0 -> 2293144 bytes
+ src/InnReservations.class                             | Bin 1747 -> 0 bytes
+ 4 files changed, 1 insertion(+)
+
+commit 59be4b72d1086559dffcc3ec40c8c3b435ec79e0
+Merge: 72ed031 f53d3a2
+Author: PhilippeWS <91435899+PhilippeWS@users.noreply.github.com>
+Date:   Thu Dec 1 13:07:13 2022 -0800
+
+    Merge branch 'main' of https://github.com/PhilippeWS/Lab07
+
+commit 72ed031b7b41cbaa9294d4fc8c4c9882794e2966
+Author: PhilippeWS <91435899+PhilippeWS@users.noreply.github.com>
+Date:   Thu Dec 1 13:06:00 2022 -0800
+
+    Query Attempt Method
+    
+    Fixed bug causing connection to not return an open connection object.
+
+ out/production/Lab07 CSC 365/InnReservations.class | Bin 1942 -> 2896 bytes
+ src/InnReservations.java                           |  36 +++++++++++++++------
+ 2 files changed, 26 insertions(+), 10 deletions(-)
+
+commit f53d3a23c1628b17bd740900830ee18b0aac0ada
+Author: Taylor <tbcmorgan@gmail.com>
+Date:   Thu Dec 1 12:22:21 2022 -0800
+
+    how to run the program
+
+ README.md | 5 +++++
+ 1 file changed, 5 insertions(+)
+
+commit 156844ce719b36d357c2ca0e98686c1bdf998f4a
+Author: Taylor <tbcmorgan@gmail.com>
+Date:   Thu Dec 1 12:20:57 2022 -0800
+
+    added jar to src for easy use
+
+ .vscode/settings.json               |   1 -
+ src/InnReservations.class           | Bin 0 -> 1747 bytes
+ src/mysql-connector-java-8.0.16.jar | Bin 0 -> 2293144 bytes
+ 3 files changed, 1 deletion(-)
+
+commit 1ea5aa580bdfafab9c6f3f21373698ea10684946
+Author: Taylor <tbcmorgan@gmail.com>
+Date:   Thu Dec 1 12:15:09 2022 -0800
+
+    added reference library to settings.json
+
+ .vscode/settings.json                              |   6 ++++++
+ out/production/Lab07 CSC 365/InnReservations.class | Bin 1942 -> 1747 bytes
+ 2 files changed, 6 insertions(+)
+
+commit 3f4a390a1f0776e2fcee4cff2b08513b40bb1fde
+Author: Taylor <tbcmorgan@gmail.com>
+Date:   Thu Dec 1 12:00:14 2022 -0800
+
+    Create .gitignore
+
+ .gitignore | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit 7bd9b0479083d67860eafd313ce1a9d2cffb4a09
+Author: PhilippeWS <91435899+PhilippeWS@users.noreply.github.com>
+Date:   Thu Dec 1 11:44:06 2022 -0800
+
+    Instantiated Base Class
+
+ .idea/vcs.xml                                      |   6 ++++++
+ out/production/Lab07 CSC 365/InnReservations.class | Bin 0 -> 1942 bytes
+ src/InnReservations.java                           |  22 +++++++++++++++++++++
+ src/README.txt                                     |   0
+ 4 files changed, 28 insertions(+)
+
+commit 453e8f8cf314eabc009350552ac902311d6aa706
+Author: PhilippeWS <91435899+PhilippeWS@users.noreply.github.com>
+Date:   Thu Dec 1 11:01:36 2022 -0800
+
+    Initial commit
+
+ .gitattributes                                  |   2 +
+ .idea/.gitignore                                |   3 +
+ .idea/libraries/mysql_connector_java_8_0_16.xml |   9 ++
+ .idea/misc.xml                                  |   6 ++
+ .idea/modules.xml                               |   8 ++
+ .idea/runConfigurations.xml                     |  10 ++
+ .idea/uiDesigner.xml                            | 124 ++++++++++++++++++++++++
+ Lab07 CSC 365.iml                               |  12 +++
+ README.md                                       |   2 +
+ src/InnReservations.java                        |   2 +
+ src/README.txt                                  |   0
+ 11 files changed, 178 insertions(+)
