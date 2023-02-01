@@ -1,0 +1,48 @@
+a.) 
+Publisher: SOURAV BANERJEE
+https://www.kaggle.com/datasets/iamsouravbanerjee/world-population-dataset?select=world_population.csv
+
+Publisher: MADHUR PANT
+https://www.kaggle.com/datasets/madhurpant/world-population-data
+
+b.)
+Tables:
+	Country Details:
+		Contains the Country Rank, 3 Letter Abbreviation, Country name, Capital, and Continent it is located on. Rank is determined by population size, which is stored in a different table.
+(This is a small selection of the dataset, as to reduce the sheer amount of insert statements otherwise required.)
+	
+		Primary Key: CountryRank (Integer)
+
+	CountryAverageWeightHeight:
+		Contains the Country (name), male identifying persons average Height and Weight, and Female identifying persons average Height and Weight. 
+
+		Primary Key: Country (Varchar(32)
+		Foreign Key: Country -> CountryDetails.Country
+
+	CountryPopulationByYear:
+		Contains the Country (name), Populations for the current year, as well as the all populations periodically every half decade until 2000, then every decade until 1970. Finally contains the population growth rate of each country
+
+		Primary Key: Country (Varchar(32)
+		Foreign Key: Country -> CountryDetails.Country
+
+c.)
+Mapping Challenges:
+	The mapping itself was quite straight forward. The real issue came in the data cleanliness. The data between the two sets did not have exactly perfect matching Country names. For example, the Dominican Republic of Congo was abbreviated to DR Congo in one set and was simply the full name in the other. I had originially planned to incorporate both sets, but reduce my own data cleaning tasks reduced it to a few randomly selected countries.
+
+d.)
+(I motivate these queries with obviously naive questions that do not consider any other external factors, only what is presented in the data. I apologize if these imply any sort of assumption, they are not intended to do so, even if they partially political in nature I did not investigate these queries myself, as without the entire dataset, AND MUCH OTHER DATA, they would not prove useful to draw any geo-political conclusions.)
+
+The "Top 3" is also arbitrary and unfortunately exemplifies the limitations of the current implented data set.
+
+Queries:
+	Query 1: Do countries with populations the top 3 weight averages also have significantly higher growth rate?
+
+	An inquiry into wether a surplus of resources results in more of the population having children with the security they will be fed?
+
+	Query 2: Are the countries with the top 3 heights located on the same or nearby continents?
+
+	An inquiry into wether there is some broader relation between height and the geographic region in which the persons were born.
+
+	Query 3: What capitals have largest discrepency between male and female weights?
+
+	Do these capitals (Usually governmental center) have a historic precendence for passing patriarchal legislation, possibly disadvantaging their woman?

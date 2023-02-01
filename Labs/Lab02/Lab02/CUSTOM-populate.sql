@@ -1,0 +1,41 @@
+INSERT INTO CountryDetails(CountryRank,CCA3,Country,Capital,Continent) VALUES (71,'NLD','Netherlands','Amsterdam','Europe');
+INSERT INTO CountryDetails(CountryRank,CCA3,Country,Capital,Continent) VALUES (169,'MNE','Montenegro','Podgorica','Europe');
+INSERT INTO CountryDetails(CountryRank,CCA3,Country,Capital,Continent) VALUES (156,'EST','Estonia','Tallinn','Europe');
+INSERT INTO CountryDetails(CountryRank,CCA3,Country,Capital,Continent) VALUES (115,'DNK','Denmark','Copenhagen','Europe');
+INSERT INTO CountryDetails(CountryRank,CCA3,Country,Capital,Continent) VALUES (179,'ISL','Iceland','Reykjavík','Europe');
+INSERT INTO CountryDetails(CountryRank,CCA3,Country,Capital,Continent) VALUES (148,'SVN','Slovenia','Ljubljana','Europe');
+INSERT INTO CountryDetails(CountryRank,CCA3,Country,Capital,Continent) VALUES (116,'SVK','Slovakia','Bratislava','Europe');
+INSERT INTO CountryDetails(CountryRank,CCA3,Country,Capital,Continent) VALUES (130,'HRV','Croatia','Zagreb','Europe');
+INSERT INTO CountryDetails(CountryRank,CCA3,Country,Capital,Continent) VALUES (105,'SRB','Serbia','Belgrade','Europe');
+INSERT INTO CountryDetails(CountryRank,CCA3,Country,Capital,Continent) VALUES (87,'SWE','Sweden','Stockholm','Europe');
+INSERT INTO CountryDetails(CountryRank,CCA3,Country,Capital,Continent) VALUES (120,'NOR','Norway','Oslo','Europe');
+INSERT INTO CountryDetails(CountryRank,CCA3,Country,Capital,Continent) VALUES (141,'LTU','Lithuania','Vilnius','Europe');
+INSERT INTO CountryDetails(CountryRank,CCA3,Country,Capital,Continent) VALUES (37,'POL','Poland','Warsaw','Europe');
+
+INSERT INTO CountryAverageWeightHeight(country,male_height,female_height,male_weight,female_weight) VALUES ('Netherlands','184','170','87.9','73.2');
+INSERT INTO CountryAverageWeightHeight(country,male_height,female_height,male_weight,female_weight) VALUES ('Montenegro','183','170','90.4','75.3');
+INSERT INTO CountryAverageWeightHeight(country,male_height,female_height,male_weight,female_weight) VALUES ('Estonia','182','168','89.9','73.7');
+INSERT INTO CountryAverageWeightHeight(country,male_height,female_height,male_weight,female_weight) VALUES ('Denmark','182','169','86.8','70.2');
+INSERT INTO CountryAverageWeightHeight(country,male_height,female_height,male_weight,female_weight) VALUES ('Iceland','181','168','89.2','72.6');
+INSERT INTO CountryAverageWeightHeight(country,male_height,female_height,male_weight,female_weight) VALUES ('Slovenia','181','167','87.0','74.2');
+INSERT INTO CountryAverageWeightHeight(country,male_height,female_height,male_weight,female_weight) VALUES ('Slovakia','181','167','89.5','71.3');
+INSERT INTO CountryAverageWeightHeight(country,male_height,female_height,male_weight,female_weight) VALUES ('Croatia','181','167','91.3','74.7');
+INSERT INTO CountryAverageWeightHeight(country,male_height,female_height,male_weight,female_weight) VALUES ('Serbia','180','168','86.9','72.6');
+INSERT INTO CountryAverageWeightHeight(country,male_height,female_height,male_weight,female_weight) VALUES ('Sweden','180','167','87.1','70.5');
+INSERT INTO CountryAverageWeightHeight(country,male_height,female_height,male_weight,female_weight) VALUES ('Norway','180','166','89.1','72.6');
+INSERT INTO CountryAverageWeightHeight(country,male_height,female_height,male_weight,female_weight) VALUES ('Lithuania','180','167','88.1','73.1');
+INSERT INTO CountryAverageWeightHeight(country,male_height,female_height,male_weight,female_weight) VALUES ('Poland','180','165','89.0','71.5');
+
+
+INSERT INTO CountryPopulationByYear(Country,2022_Population,2020_Population,2015_Population,2010_Population,2000_Population,1990_Population,1980_Population,1970_Population,Growth_Rate) VALUES ('Netherlands',17564014,17434557,17041107,16617116,15899135,14944548,14130387,13037686,1.0036);
+INSERT INTO CountryPopulationByYear(Country,2022_Population,2020_Population,2015_Population,2010_Population,2000_Population,1990_Population,1980_Population,1970_Population,Growth_Rate) VALUES ('Montenegro',627082,629048,633966,631044,633324,621442,589324,530268,0.9988);
+INSERT INTO CountryPopulationByYear(Country,2022_Population,2020_Population,2015_Population,2010_Population,2000_Population,1990_Population,1980_Population,1970_Population,Growth_Rate) VALUES ('Estonia',1326062,1329444,1314657,1331535,1396877,1570674,1476983,1361999,0.998);
+INSERT INTO CountryPopulationByYear(Country,2022_Population,2020_Population,2015_Population,2010_Population,2000_Population,1990_Population,1980_Population,1970_Population,Growth_Rate) VALUES ('Denmark',5882261,5825641,5677796,5550849,5340655,5144623,5125392,4922963,1.0048);
+INSERT INTO CountryPopulationByYear(Country,2022_Population,2020_Population,2015_Population,2010_Population,2000_Population,1990_Population,1980_Population,1970_Population,Growth_Rate) VALUES ('Iceland',372899,366669,331060,318333,281462,255019,228263,204468,1.0069);
+INSERT INTO CountryPopulationByYear(Country,2022_Population,2020_Population,2015_Population,2010_Population,2000_Population,1990_Population,1980_Population,1970_Population,Growth_Rate) VALUES ('Slovenia',2119844,2117641,2080862,2057286,1984339,1986024,1901570,1741286,1.0002);
+INSERT INTO CountryPopulationByYear(Country,2022_Population,2020_Population,2015_Population,2010_Population,2000_Population,1990_Population,1980_Population,1970_Population,Growth_Rate) VALUES ('Slovakia',5643453,5456681,5424444,5396424,5376690,5261305,4973883,4522867,1.0359);
+INSERT INTO CountryPopulationByYear(Country,2022_Population,2020_Population,2015_Population,2010_Population,2000_Population,1990_Population,1980_Population,1970_Population,Growth_Rate) VALUES ('Croatia',4030358,4096868,4254815,4368682,4548434,4873707,4680144,4492638,0.9927);
+INSERT INTO CountryPopulationByYear(Country,2022_Population,2020_Population,2015_Population,2010_Population,2000_Population,1990_Population,1980_Population,1970_Population,Growth_Rate) VALUES ('Sweden',10549347,10368969,9849349,9381729,8871043,8548406,8311763,8027702,1.0079);
+INSERT INTO CountryPopulationByYear(Country,2022_Population,2020_Population,2015_Population,2010_Population,2000_Population,1990_Population,1980_Population,1970_Population,Growth_Rate) VALUES ('Norway',5434319,5379839,5190356,4889741,4491202,4241636,4085776,3875546,1.0058);
+INSERT INTO CountryPopulationByYear(Country,2022_Population,2020_Population,2015_Population,2010_Population,2000_Population,1990_Population,1980_Population,1970_Population,Growth_Rate) VALUES ('Lithuania',2750055,2820267,2963765,3139019,3599637,3785847,3521206,3210147,0.9869);
+INSERT INTO CountryPopulationByYear(Country,2022_Population,2020_Population,2015_Population,2010_Population,2000_Population,1990_Population,1980_Population,1970_Population,Growth_Rate) VALUES ('Poland',39857145,38428366,38553146,38597353,38504431,38064255,35521429,32482943,1.0404);
